@@ -1,0 +1,89 @@
+<div class="container-fluid" head-color>
+    <div class="row" style="margin-top: 6px;">
+        <div class="col-md-7 register-hw">
+
+            <a href="lnosotros.jsp">Nosotros</a>
+            <a>Contactanos</a>
+            
+            <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Mi cuenta</a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">INGRESA TU CUENTA</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                        <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">CORREO ELECTRONICO:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">CONTRASEÑA:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">SALIR</button>
+                            <button type="button" class="btn btn-primary">ENTRAR</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- Button trigger modal -->
+            <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Crear Cuenta</a>
+
+            <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">CREA TU CUENTA</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                        <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Apellido:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>  
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Correo Electrónico:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Teléfono:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                               <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Contraseña:</label>
+                                <input type="password" class="form-control" id="recipient-name">
+                              </div> 
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">SALIR</button>
+                                <button type="button" class="btn btn-primary">CREA TU CUENTA</button>
+                                </div>
+                            </form>
+                        </div>
+      
+    </div>
+  </div>
+</div>      
+        </div>
+        <div class="col-md-5 register-hw text-right">
+            <a>+51 992178532</a>
+            <a>chanwis@gmail.com</a>
+        </div>
+
+    </div>
+</div>
