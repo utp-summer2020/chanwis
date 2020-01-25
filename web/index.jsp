@@ -15,7 +15,7 @@
     </head>
     <body>
               <%@include file="WEB-INF/jspf/lheader.jspf"%>  
-              <%@include file="WEB-INF/jspf/lnav.jspf"%>
+         
               <%@include file="WEB-INF/jspf/lcarousel.jspf"%>
               <%@include file="WEB-INF/jspf/lbody1.jspf"%>
                <%@include file="WEB-INF/jspf/lfooter.jspf"%>
